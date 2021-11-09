@@ -1,14 +1,3 @@
-/*
-   simple rust calculator
-   add_op := '+' | '-'
-   mul_op := '*' | '/'
-   digits := {'+' | '-'} [0..9] {[0..9]}
-   
-   expr := term {add_op term}
-   term := factor {mul_op factor}
-   factor := digits | '(' expr ')'
-   
- */
 
 use std::io;
 
